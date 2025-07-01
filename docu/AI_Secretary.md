@@ -69,10 +69,11 @@
 
 1. STT
 
-▶️ 위스퍼(Whisper) <br/>
+▶️ 위스퍼(Whisper)
 - 2022년 OpenAI에서 공개한 인공지능 모델
 - OpenAI에서 개발한 오픈소스 음성 인식(STT, Speech-to-Text) 모델
 - 다양한 언어와 억양을 인식할 수 있도록 6만 시간 이상의 다국어 음성 데이터로 학습된 Transformer 기반 모델
+<br/>
 
 🧠 Whisper의 특징
 - 다국어 지원: 한국어, 영어, 일본어 등 수십 개 언어 인식 가능
@@ -80,3 +81,35 @@
 - 높은 정확도: 잡음이 있는 환경에서도 비교적 정확한 인식
 - 오픈소스: 누구나 자유롭게 설치하고 사용할 수 있음
 - 모델 크기 다양: tiny, base, small, medium, large 등 성능과 속도에 따라 선택 가능
+<br/>
+
+⚙️ 설치 및 사용 예시 (Python)
+
+```shell
+pip install git+https://github.com/openai/whisper.git
+```
+<br/>
+
+```python
+import whisper
+
+model = whisper.load_model("base")  # 또는 "small", "medium", "large"
+result = model.transcribe("audio.mp3", language="ko")
+print(result["text"])
+```
+
+<br/>
+
+🚀 활용 예시
+• 	유튜브 영상 자막 자동 생성
+• 	회의 녹음 자동 받아쓰기
+• 	다국어 음성 번역
+• 	음성 기반 챗봇 입력 처리
+<br/>
+
+🔗 더 알아보기
+• 	[Whisper GitHub 저장소](https://github.com/openai/whisper): 설치법, 모델 구조, 예제 코드 등
+• 	[Whisper 사용법 블로그 가이드](https://toby2718.com/whisper-openai/): Windows에서 쉽게 사용하는 방법 정리
+<br/>
+
+
