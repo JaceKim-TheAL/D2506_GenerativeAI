@@ -101,15 +101,15 @@ print(result["text"])
 <br/>
 
 🚀 활용 예시
-• 	유튜브 영상 자막 자동 생성
-• 	회의 녹음 자동 받아쓰기
-• 	다국어 음성 번역
-• 	음성 기반 챗봇 입력 처리
+- 유튜브 영상 자막 자동 생성
+- 회의 녹음 자동 받아쓰기
+- 다국어 음성 번역
+- 음성 기반 챗봇 입력 처리
 <br/>
 
 🔗 더 알아보기
-• 	[Whisper GitHub 저장소](https://github.com/openai/whisper): 설치법, 모델 구조, 예제 코드 등
-• 	[Whisper 사용법 블로그 가이드](https://toby2718.com/whisper-openai/): Windows에서 쉽게 사용하는 방법 정리
+- [Whisper GitHub 저장소](https://github.com/openai/whisper): 설치법, 모델 구조, 예제 코드 등
+- [Whisper 사용법 블로그 가이드](https://toby2718.com/whisper-openai/): Windows에서 쉽게 사용하는 방법 정리
 <br/>
 
 
