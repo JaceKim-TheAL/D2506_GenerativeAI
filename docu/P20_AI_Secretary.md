@@ -112,5 +112,3 @@ print(result["text"])
 - [Whisper 사용법 블로그 가이드](https://toby2718.com/whisper-openai/): Windows에서 쉽게 사용하는 방법 정리
 <br/>
 
-
-• 	
